@@ -38,7 +38,10 @@ ul{
 
 div{
   background-color:white;
-  font-weight:bold;
+}
+
+div{
+    font-weight:bold;
 }
       
 /* Hint:  You can specify several CSS rules for one element by separating the rules with semi-colons. Look at some examples on w3schools */
