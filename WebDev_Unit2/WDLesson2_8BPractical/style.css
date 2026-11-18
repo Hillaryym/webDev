@@ -3,3 +3,8 @@
 .banner{
    display:flex; 
 }
+
+
+.links div, .footer div{
+   color-brackground:green;
+}
