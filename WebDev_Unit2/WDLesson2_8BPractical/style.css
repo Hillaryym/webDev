@@ -1,28 +1,62 @@
 /* Challenge 2: Use w3SchoolsMockUp.png to help you write the necessary CSS rules.
    Hint: Remember all the fundamental CSS rules when working with flexboxes */
 *{
-   font-family:Arial
+   font-family: Arial
 }
 .container{
-   display:flex;
+   display: flex;
 }
 
 #banner{
-   font-size:30pt;
+   font-size: 30pt;
 
 }
 #banner div{
-   flex:1;
-}
-
-#links{
-}
-#links a{
-   color:black
+   flex: 1;
 }
 
 #links, #footer{
    background-color:rgb(34, 139, 34);
-   height:50pt;
-   align-items:center;
+   height: 50pt;
+   align-items: center;
+}
+
+#links a{
+   color:white;
+   font-size: 20pt;
+   flex: 1;
+   text-decoration: none;
+}
+
+#body{
+   height: 400px;
+}
+
+#sidebar{
+   flex-direction: column;
+   border: solid 1px black;
+   flex: 1;
+}
+
+#sidebar a{
+   color:black;
+   font-size: 0pt;
+   flex: 1;
+   text-decoration: center;
+}
+
+#main, #sample{
+   flex: 4;
+   justify-content: center;
+   align-items: center;
+}
+
+#footer{
+   justify-content: center;
+   align-items: center;
+}
+
+#footer p{
+   color: white;
+   font-size: 15pt;
 }
